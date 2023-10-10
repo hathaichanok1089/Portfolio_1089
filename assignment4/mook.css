@@ -1,0 +1,245 @@
+h1{
+    text-align: center;
+    color: white;
+    background-color: rgb(182, 149, 108);
+
+}
+
+.mypic{
+    margin: auto;
+    justify-items: center ;
+    text-align: center ;
+}
+
+.mypic img{
+    text-align: center;
+    border-radius: 15px;
+    height: 200px;
+    width: 400px;
+
+}
+
+h2{
+    text-align: center;
+    font-size: 65px;
+    color:white;
+    background-color: rgb(182, 149, 108);
+    width: 90%;
+    margin: auto;
+}
+
+h3{
+    text-align: center;
+    color: white;
+    background-color: rgba(182, 149, 108, 0.596);
+}
+
+body{
+    background-color: bisque;
+}
+
+.mypic1{
+    margin: auto;
+    justify-items: center ;
+    text-align: center ;
+    
+}
+
+.mypic1 img{
+    text-align: center;
+    border-radius: 15px;
+    height: 200px;
+    width: 400px;
+}
+
+.Instructions1{
+    text-align: center;
+}
+
+.mypic2{
+    margin: auto;
+    justify-items: center ;
+    text-align: center ;
+}
+
+.mypic2 img{
+    text-align: center;
+    border-radius: 15px;
+    height: 200px;
+    width: 400px;
+}
+
+.Instructions2{
+    text-align: center;
+}
+
+.mypic3{
+    margin: auto;
+    justify-items: center ;
+    text-align: center ;
+}
+
+.mypic3 img{
+    text-align: center;
+    border-radius: 15px;
+    height: 200px;
+    width: 400px;
+}
+
+.Instructions3{
+    text-align: center;
+}
+
+.mypic4{
+    margin: auto;
+    justify-items: center ;
+    text-align: center ;
+}
+
+.mypic4 img{
+    text-align: center;
+    border-radius: 15px;
+    height: 200px;
+    width: 400px;
+}
+
+.Instructions4{
+    text-align: center;
+}
+
+.mypic5{
+    justify-content: center;
+    text-align: center ;
+    display: flex;
+    flex-direction: column;
+}
+
+.mypic5 img{
+    text-align: center;
+    border-radius: 15px;
+    width: 300px;
+}
+
+.mypic6{
+    justify-items: center ;
+    text-align: center ;
+}
+
+.mypic6 img{
+    text-align: center;
+    border-radius: 15px;
+    width: 350px;
+}
+
+.mypic7{
+    justify-content: center;
+    text-align: center ;
+    display: flex;
+    flex-direction: column;
+}
+
+.mypic7 img{
+    text-align: center;
+    border-radius: 15px;
+    width: 300px;
+}
+
+.All {
+    display:flex;
+    flex-direction:row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto 35% 35%;
+    grid-gap: 10px;
+}
+
+.grid-container > div{
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+    background-color:white;
+} 
+
+ #header{
+    grid-column: 1 / span 3;
+}
+
+#menu{
+    grid-column: 1 / span 1;
+}
+
+#main{
+    grid-column: 2 / span 1;
+}
+#right{
+    grid-column: 3 / span 1;
+}
+
+#footer{
+    grid-column: 1 / span 3;
+} 
+
+ @media only screen and (max-width: 500px){
+    body{
+        background-color: lightblue;
+    }
+} 
+
+ @media only screen and (max-width: 767px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto 20%;
+        grid-gap: 10px;
+    }
+    #header{
+        grid-column: 1 / span 2;
+    }
+    
+    #menu{
+        grid-column: 1 / span 2;
+        text-align: left;
+    }
+    
+    #menu div{
+        display: inline-block;
+    }
+
+    #main{
+        grid-column: 1 / span 1;
+    }
+    #right{
+        grid-column: 2 / span 1;
+    }
+    #footer{
+        grid-column: 1 / span 2;
+    }
+} 
+
+ @media only screen and (max-width: 500px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+    }
+    #header{
+        grid-column: 1 / span 1;
+    }
+    
+    #menu{
+        grid-column: 1 / span 1;
+    }
+    
+    #main{
+        grid-column: 1 / span 1;
+    }
+    #right{
+        grid-column: 1 / span 1;
+    }
+    #footer{
+        grid-column: 1 / span 1;
+    }
+}  

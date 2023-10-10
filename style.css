@@ -1,0 +1,200 @@
+html,
+body,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2,
+h3{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.about{
+    background-color: #dfdede;
+} 
+
+.r_about-me {
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.about-me h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.r_about-me p {
+    color: #666;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#HOBBY {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+}
+
+.r_HOBBY {
+    margin-bottom: 0px;
+}
+
+.r_HOBBY p {
+    color: #666;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+#ABILITY {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+}
+
+.r_ABILITY {
+    margin-bottom: 0px;
+}
+
+.r_ABILITY p {
+    color: #666;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#INTEREST {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+}
+
+.r_INTEREST {
+    margin-bottom: 0px;
+}
+
+.r_INTEREST p {
+    color: #666;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.work-buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    border-radius: 9999px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.work-buttons a:hover {
+    background-color: #800;
+}
+
+#Button1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #79c9ff;
+    color: #fff;
+    border-radius: 9999px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#Button1:hover {
+    background-color: #23a2f6;
+}
+
+#Button2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #79c9ff;
+    color: #fff;
+    border-radius: 9999px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#Button2:hover {
+    background-color: #23a2f6;
+}
+
+#projects {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+}
+
+.project h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.project p {
+    color: #666;
+    margin-top: 20px;
+}
+
+.project-images img {
+    width: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#contact {
+    background-color: #dfdede;
+    padding : 40px 0;
+
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a i {
+    font-size: 24px;
+    color: #666;
+    margin: 2px;
+}
+
